@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Chat</title>
+    
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:#6D74CB;
+            height: 100%;
+        }
+        .home-header{
+            /* border: 1px solid black; */
+            padding: 20px;
+            margin: 10px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo{
+            width: 50px;
+            /* height: 10px; */
+            border-radius: 50%;
+        }
+        .home-header a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+        .home-header a:hover{
+            color: #302343;
+        }
+        .welcome{
+            width: 100%;
+            /* background-color: aliceblue; */
+            height: 300px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .welcome h2{
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="home-header">
+        <img class="logo" src="https://i.pinimg.com/originals/82/c6/5b/82c65b9bb0a75026fc4c82a438b4cc9b.jpg" alt="">
+        <a href="login.html">Login</a>
+    </div>
+    <div class="welcome">
+        <h2>Welcome to the Real Chat...</h2>
+        <p>Don't have account? <a href="" class="create-account">Create Account.</a></p>
+    </div>
+</body>
+</html>
