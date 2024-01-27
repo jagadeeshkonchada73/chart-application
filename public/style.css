@@ -1,6 +1,9 @@
-body{
-    margin: 0px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 .main{
     /* background-color: black; */
     height: 100vh;
@@ -9,7 +12,7 @@ body{
 .menu{
     background-color: #6D74CB;
     min-width: 30vw;
-    border: 1px solid ;
+    border: 1px solid black;
     border-radius: 3px;
 }
 .friend{
@@ -36,16 +39,19 @@ body{
 }
 
 .pic{
-    border: 1px solid black;
+    /* border: 1px solid black;
     border-radius: 50%;
     min-width: 10vh;
     margin-left: 3vh;
+    height: 10vh; */
+    
 }
-.pic>img{
+.pic img{
     object-fit: cover;
     height: 10vh;
     min-width: 10vh;
     border-radius: 50%;
+    border: 1px solid black;
 }
 .name{
     border: 1px solid black;
